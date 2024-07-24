@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-	
+
     <LangVersion>latest</LangVersion>
   	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 	<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
-	
+
     <Version>1.0.0</Version>
     <PackageVersion>8.0.1</PackageVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -18,11 +18,12 @@
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Liu Peng</Authors>
     <Copyright>Copyright © 2016 LiuPeng</Copyright>
-    <PackageLicense>https://github.com/e8-LiuPeng/ua-parser-formfactor/master/LICENSE.md</PackageLicense>
+	  <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/e8-LiuPeng/ua-parser-formfactor</PackageProjectUrl>
     <RepositoryUrl>https://github.com/e8-LiuPeng/ua-parser-formfactor</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageId>Sss.UAParser</PackageId>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageReleaseNotes>Update regex file</PackageReleaseNotes>
 
   </PropertyGroup>
@@ -39,5 +40,9 @@
   <ItemGroup>
     <EmbeddedResource Include="regexes.yaml" />
   </ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 
 </Project>
