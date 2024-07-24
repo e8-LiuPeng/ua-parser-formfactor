@@ -8,7 +8,7 @@
 	<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
 	
     <Version>1.0.0</Version>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>8.0.0</PackageVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <InformationalVersion>1.0.0.0</InformationalVersion>
@@ -16,12 +16,13 @@
     <Description>A .net wrapper for the ua-parser library with form factors (Mobile,Table,Desktop,Spider). No hidden references to System.Net.Http</Description>
 
 	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Authors>Aleksey Gordeev, Igor Eroshkin</Authors>
-    <Copyright>Copyright © 2016 Aleksey Gordeev, Igor Eroshkin</Copyright>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/thyn/ua-parser-formfactor/master/LICENSE.md</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/thyn/ua-parser-formfactor</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/thyn/ua-parser-formfactor</RepositoryUrl>
+    <Authors>Liu Peng</Authors>
+    <Copyright>Copyright © 2016 LiuPeng</Copyright>
+    <PackageLicenseUrl>https://github.com/e8-LiuPeng/ua-parser-formfactor/master/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/e8-LiuPeng/ua-parser-formfactor</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/e8-LiuPeng/ua-parser-formfactor</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageId>3S.UAParser</PackageId>
 
   </PropertyGroup>
 
