@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
 	
     <LangVersion>latest</LangVersion>
   	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
@@ -15,14 +15,14 @@
     <PackageTags>uaparser;useragent;factor;parser;device;form</PackageTags>
     <Description>A .net wrapper for the ua-parser library with form factors (Mobile,Table,Desktop,Spider). No hidden references to System.Net.Http</Description>
 
-	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Liu Peng</Authors>
     <Copyright>Copyright © 2016 LiuPeng</Copyright>
-    <PackageLicenseUrl>https://github.com/e8-LiuPeng/ua-parser-formfactor/master/LICENSE.md</PackageLicenseUrl>
+    <PackageLicense>https://github.com/e8-LiuPeng/ua-parser-formfactor/master/LICENSE.md</PackageLicense>
     <PackageProjectUrl>https://github.com/e8-LiuPeng/ua-parser-formfactor</PackageProjectUrl>
     <RepositoryUrl>https://github.com/e8-LiuPeng/ua-parser-formfactor</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageId>3S.UAParser</PackageId>
+    <PackageId>Sss.UAParser</PackageId>
 
   </PropertyGroup>
 
